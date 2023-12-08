@@ -11,6 +11,18 @@
     {
       "id": "HiringManagerInfo",
       "isDefault": false
+    },
+    {
+      "id": "Applicant View ",
+      "isDefault": false
+    },
+    {
+      "id": "ApplicantAddandRemoveResume",
+      "isDefault": false
+    },
+    {
+      "id": "JobsPageApplicant",
+      "isDefault": false
     }
   ],
   "viewMode": false,

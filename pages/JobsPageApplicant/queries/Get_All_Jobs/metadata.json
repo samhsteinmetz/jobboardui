@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "gethiringmanagerinfo",
+    "name": "Get_All_Jobs",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/hm/hiring_manager/3"
+        "url": "web:4000/cp/jobs"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "HiringManagerInfo",
+    "pageId": "JobsPageApplicant",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "HiringManagerInfo_gethiringmanagerinfo",
+  "id": "JobsPageApplicant_Get_All_Jobs",
   "deleted": false,
-  "gitSyncId": "65725eba01158b589f617498_65728670c2d27d2229332b64"
+  "gitSyncId": "65725eba01158b589f617498_6572e9e943797e2816fb5b39"
 }

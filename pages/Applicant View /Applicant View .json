@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "HiringManagerInfo",
-    "slug": "hiringmanagerinfo",
+    "name": "Applicant View ",
+    "slug": "applicant-view",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1020,
+          "bottomRow": 1300,
           "containerStyle": "none",
           "snapRows": 75,
           "parentRowSpace": 1,
@@ -28,32 +28,40 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "HiringManagerInfo_allapplicants",
-              "name": "allapplicants",
+              "id": "Applicant View _Applicant_all_data",
+              "name": "Applicant_all_data",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "HiringManagerInfo_getapplicantdata",
-              "name": "getapplicantdata",
+              "id": "Applicant View _Education_experience",
+              "name": "Education_experience",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "HiringManagerInfo_gethiringmanagerinfo",
-              "name": "gethiringmanagerinfo",
+              "id": "Applicant View _Skills_applicant",
+              "name": "Skills_applicant",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "HiringManagerInfo_receive_job_application",
-              "name": "receive_job_application",
+              "id": "Applicant View _Volunteer_experience",
+              "name": "Volunteer_experience",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Applicant View _get_work_experience",
+              "name": "get_work_experience",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -63,7 +71,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "HiringManagerInfo",
+        "id": "Applicant View ",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -74,5 +82,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65725eba01158b589f617498_6572846dc2d27d2229332b62"
+  "gitSyncId": "65725eba01158b589f617498_6572ce554c8da66c4de8f4c7"
 }
