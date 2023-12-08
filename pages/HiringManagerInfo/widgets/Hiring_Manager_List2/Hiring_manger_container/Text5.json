@@ -33,7 +33,7 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "backgroundColor": "#fca5a5",
-    "textAlign": "LEFT",
+    "textAlign": "CENTER",
     "dynamicHeight": "FIXED",
     "widgetId": "cw8i3e7r76",
     "minWidth": 450,

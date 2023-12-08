@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "gethiringmanagerinfo",
+    "name": "Skills_applicant",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/hm/hiring_manager/3"
+        "url": "web:4000/a/applicant/4/skills"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "HiringManagerInfo",
+    "pageId": "Applicant View ",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "HiringManagerInfo_gethiringmanagerinfo",
+  "id": "Applicant View _Skills_applicant",
   "deleted": false,
-  "gitSyncId": "65725eba01158b589f617498_65728670c2d27d2229332b64"
+  "gitSyncId": "65725eba01158b589f617498_6572d2974c8da66c4de8f4cb"
 }
