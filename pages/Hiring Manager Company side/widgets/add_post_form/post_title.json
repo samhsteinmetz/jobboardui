@@ -7,10 +7,7 @@
     "animateLoading": true,
     "resetOnSubmit": true,
     "leftColumn": 13,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "accentColor"}],
     "labelStyle": "",
     "inputType": "TEXT",
     "isDisabled": false,
@@ -26,7 +23,8 @@
         "Inputs"
     ],
     "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0px",
+    "originalBottomRow": 17,
     "mobileBottomRow": 15,
     "widgetName": "post_title",
     "displayName": "Input",
@@ -56,6 +54,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 8,
     "responsiveBehavior": "fill",
+    "originalTopRow": 10,
     "mobileLeftColumn": 13,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",

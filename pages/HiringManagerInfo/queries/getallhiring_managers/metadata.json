@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/hm/hiring_manager_userfacing/2"
+        "url": "web:4000/hm/hiring_manager"
       },
       "invalids": [],
       "messages": [],
