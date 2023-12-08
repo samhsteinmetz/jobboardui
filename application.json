@@ -1,16 +1,8 @@
 {
   "pages": [
     {
-      "id": "Hiring Manager Company side",
+      "id": "Page1",
       "isDefault": true
-    },
-    {
-      "id": "CompanyInfoandJobs",
-      "isDefault": false
-    },
-    {
-      "id": "HiringManagerInfo",
-      "isDefault": false
     }
   ],
   "viewMode": false,
